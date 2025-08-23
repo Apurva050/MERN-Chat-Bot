@@ -131,9 +131,10 @@ const Chat = () => {
       <Box
         sx={{
           display: "flex",
-          flex: { md: 0.8, xs: 1, sm: 1 },
+          width: { md: "80%", xs: "100%", sm: "100%" },
           flexDirection: "column",
           px: 3,
+          mx: "auto", // centers the box
         }}
       >
         <Typography
